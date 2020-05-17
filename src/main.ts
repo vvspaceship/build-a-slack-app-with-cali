@@ -1,5 +1,6 @@
 import 'dotenv/config'
 import { App, ExpressReceiver } from '@slack/bolt'
+import fetch from 'node-fetch'
 
 // express receiver to register custom routes
 const receiver = new ExpressReceiver({
